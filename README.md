@@ -1,5 +1,8 @@
+# Solution Introduction
+
+根据AForge.Video.DirectShow和DirectShow.dll实现摄像头图片抓取视频预览功能。
+
 # Aforge DirectShow
-根据AForge.Video.DirectShow实现摄像头图片抓取视频预览功能。
 
 请参考项目：DirectShow
 
