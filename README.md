@@ -1,6 +1,8 @@
 # DirectShow
 根据AForge.Video.DirectShow实现摄像头图片抓取视频预览功能。
 
+Directshow: http://directshownet.sourceforge.net/
+
 # More Reference
 
 A simple DirectShowLib Media Player: https://github.com/NVZver/DirectShow
