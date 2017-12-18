@@ -53,7 +53,7 @@ namespace DirectShow
         }
 
         /// <summary>
-        /// 关闭摄像功能
+        /// 停止摄像功能
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
