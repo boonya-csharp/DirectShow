@@ -46,7 +46,7 @@ namespace DirectShow
         /// <param name="e"></param>
         private void btnStart_Click(object sender, EventArgs e)
         {
-            FilterInfo videoDevice = (FilterInfo)comboBox1.Items[comboBox1.SelectedIndex];
+            AForge.Video.DirectShow.FilterInfo videoDevice = (AForge.Video.DirectShow.FilterInfo)comboBox1.Items[comboBox1.SelectedIndex];
             _videoSource = new VideoCaptureDevice(videoDevice.MonikerString);
             _videoSource.NewFrame += VideoSource_NewFrame;// 更新帧图
             _videoSource.Start();
